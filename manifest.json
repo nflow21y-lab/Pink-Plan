@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "핑키 플랜 - 파스텔 핑크 크롬 스케줄러",
+  "version": "1.2.0",
+  "description": "사랑스러운 파스텔 핑크 테마의 올인원 클라우드 스케줄러 & 투두 플래너",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "핑키 플랜 스케줄러 열기"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ]
+}
